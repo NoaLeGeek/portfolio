@@ -1,0 +1,32 @@
+# Site settings
+title: "Noa Ottermann - Portfolio"
+description: "Personal portfolio website showcasing skills, projects, and experience"
+author: "Noa Ottermann"
+url: "https://NoaLeGeek.github.io"
+baseurl: "/portfolio"
+
+# GitHub Pages settings
+github_username: NoaLeGeek
+repository: NoaLeGeek/portfolio
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
